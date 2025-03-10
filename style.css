@@ -34,8 +34,29 @@ a{
     text-decoration: none;    
 }
 
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: 5px solid #3882F6;
+    border-radius: 25px;
+    padding: 2px;
+}
+
+.info-part .frame {
+    width: 200px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.top .frame {
+    width: 840px;
+    height: 426px;
+}
+
 .top .body{
     display: flex;
+    gap: 50px;
 }
 
 .top .content{
@@ -67,11 +88,7 @@ a{
     border: 0px;
 }
 
-.top image {
-    border-color: purple;
-    border:solid;
-    flex: 1 1 100px;
-}
+
 
 
 /* !! problem: image not showing up !! */
@@ -102,15 +119,6 @@ a{
 
 .card {
     flex: 0 1 100px;
-}
-.card img {
-    /* border-color: purple; */
-    /* border:solid; */
-    border: 5px;
-    border-style: solid;
-    border-radius: 12.5% ;
-    border-color: #3882F6;
-    padding: 5px;
 }
 
 .card .context {
